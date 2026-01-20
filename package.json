@@ -1,11 +1,10 @@
 {
-  "name": "mvcts",
+  "name": "to-do-oop",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon dist/app.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,10 +12,5 @@
   "type": "module",
   "dependencies": {
     "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.5",
-    "@types/node": "^24.10.0",
-    "nodemon": "^3.1.10"
   }
 }
